@@ -6,7 +6,7 @@ rule_files:
   - alert.yml
 
 scrape_configs:
-  - job_name: 
+  - job_name: application:9090
     metrics_path: /metrics
     static_configs:
       - targets:
