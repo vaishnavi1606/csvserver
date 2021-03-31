@@ -76,5 +76,12 @@ services:
 
 3. up the server using docker compose
    $ docker-compose up
+   
+PART 3 Solutions:
+
+1. pull the prometheus image
+2. create prometheus.yml file
+3. add the content of docker-compose file.
+4. execute the command docker-compose up
 
 
