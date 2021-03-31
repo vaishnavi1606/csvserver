@@ -2,9 +2,6 @@ global:
   scrape_interval: 30s
   scrape_timeout: 10s
 
-rule_files:
-  - alert.yml
-
 scrape_configs:
   - job_name: application:9090
     metrics_path: /metrics
